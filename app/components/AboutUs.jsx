@@ -7,7 +7,7 @@ export default function AboutUs() {
     <View className="p-8">
       <View className="flex-col">
         <Image
-          className="border border-b-8 border-b-red-600 rounded-tl-[100px] rounded-br-[50px]"
+          className="border border-b-4 border-b-red-600 rounded-tl-[100px] rounded-br-[50px]"
           source={{
             uri: "https://speedlinkng.com/wp-content/uploads/2022/08/Speed-web-01-1024x682.jpg"
           }} // Adjust the path to your image
@@ -24,14 +24,15 @@ export default function AboutUs() {
         </Text>
       </Text>
       <Text className="py-4 font-normal text-[20px]">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ullam
-        earum, officiis deleniti corporis repudiandae sapiente cupiditate
-        numquam pariatur veniam fugit impedit debitis molestiae perspiciatis non
-        sequi id commodi sit.
+        Speedlink Hi-Tech Solutions Limited is a Nigerian leading IT systems
+        provider, known for providing clients with Enterprise world-class
+        solutions addressing their local business needs. We deliver positive,
+        rapid and the best return on investment “ROI” solutions for our
+        customers.
       </Text>
       <TouchableOpacity className="border p-3 w-1/2 rounded-md bg-red-600 border-red-600 flex-row items-center ">
-        <Text className="text-white font-semibold text-lg">Who are we   </Text>
-      <FontAwesome name="telegram" size={24} color="white"  className=""/>
+        <Text className="text-white font-semibold text-lg">Who are we </Text>
+        <FontAwesome name="telegram" size={24} color="white" className="" />
       </TouchableOpacity>
     </View>
   );
