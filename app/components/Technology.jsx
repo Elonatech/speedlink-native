@@ -19,9 +19,10 @@ const Technology = () => {
       <Swiper
         style={styles.swiper}
         showsPagination={false}
+        showsButton={false}
         autoplay
         autoplayTimeout={3000}
-        loop
+        loop={true}
       >
         <View style={styles.slide}>
           <Image

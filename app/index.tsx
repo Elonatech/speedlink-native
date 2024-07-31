@@ -12,7 +12,8 @@ import Products from "../app/components/Products";
 import CaseStudies from "../app/components/CaseStudy";
 import Technology from "../app/components/Technology";
 import TopClients from "../app/components/TopClient";
-import Footer from "../app/components/TopClient";
+import Footer from "../app/components/Footer";
+
 
 export default function App() {
   return (
